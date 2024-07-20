@@ -138,10 +138,10 @@ document.querySelector(".language").addEventListener("click", () => {
   document.documentElement.lang === "en"
     ? document
         .querySelectorAll(".tel")
-        .forEach((item) => (item.innerHTML = "+40 754 559 353"))
+        .forEach((item) => (item.innerHTML = "+40 775 210 782"))
     : document
         .querySelectorAll(".tel")
-        .forEach((item) => (item.innerHTML = "0754 559 353"));
+        .forEach((item) => (item.innerHTML = "0775 210 782"));
   if (document.documentElement.lang === "en") {
     document.querySelector(
       ".certification"
